@@ -4,10 +4,11 @@ jobs:
   sleep:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+    
       - name: Log some stuff
-        run: |
-          printenv
-          git log
+        run: printenv && git log
         
       - name: Hang for a minute
         run: sleep 10
