@@ -1,0 +1,8 @@
+name: CI
+on: [push]
+jobs:
+  sleep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hang for a minute
+        run: sleep 10
