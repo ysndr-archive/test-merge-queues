@@ -13,4 +13,9 @@ jobs:
         run: printenv && git show
         
       - name: Hang for a minute
-        run: sleep 10
+        run: sleep 15
+
+      - name: Exit
+        run: |
+          exit $(cat exit)
+
