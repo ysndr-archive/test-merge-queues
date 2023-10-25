@@ -10,9 +10,9 @@ export const Page = () => {
     <article>
       <Header
         user={user}
-        onLogin={() => setUser({ name: 'John Doe' })}
+        onLogin={() => setUser({ name: 'John Doh' })}
         onLogout={() => setUser(undefined)}
-        onCreateAccount={() => setUser({ name: 'John Doe' })}
+        onCreateAccount={() => setUser({ name: 'John Doh' })}
       />
       <section className="storybook-page">
         <h2>Pages in Storybook</h2>
