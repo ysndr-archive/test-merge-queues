@@ -12,7 +12,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Publish to Chromatic
-        uses: chromaui/action@v1
-        with:
-          projectToken: chpt_5210750bac1980c
+      # - name: Publish to Chromatic
+      #   uses: chromaui/action@v1
+      #   with:
+      #     projectToken: chpt_5210750bac1980c
